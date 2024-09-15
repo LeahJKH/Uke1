@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header, footer {
+    background-color: rgb(186, 186, 186);
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+#middle-bar {
+    background-image: url(../images/stjernehimmel.jpg);
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#middle-bar > h2 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-styling {
+width: 100px;
+height: 30px;
+}
+#heading-txt-top {
+    font-size: 53px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: blue;
+}
+#img-moon {
+    width: 400px; 
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+/*
+1: *
+2: body tag
+3: tags
+4: classes
+5: id's
+*/
